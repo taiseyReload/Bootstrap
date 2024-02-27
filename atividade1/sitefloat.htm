@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Revolution&display=swap');
+        body {
+            margin: 0;
+            background-color: rgb(54, 0, 0);
+            font-family: "Open Sans", sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        h1,h2,h3,h4,h5{
+            font-family: "Protest Revolution", sans-serif;
+        }
+
+        .container {
+            background-color: white;
+            width: 80%;
+            max-width: 900px;
+            margin: auto;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .cabecalho {
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 20px 10px;
+            float: left;
+            text-align: center;
+        }
+
+        .corpo {
+            width: 100%;
+            float: left;
+        }
+
+        .lateral {
+            width: 30%;
+            float: left;
+            padding-top: 10px;
+            position: sticky;
+            top: 0;
+        }
+       
+        .menulateral a{
+            display: block;
+            background-color: rgb(148, 1, 1);
+            margin-bottom: 5px;
+            color: white;
+            text-decoration: none;
+            padding: 8px;
+        }
+        .menulateral a:hover{
+            background-color: rgb(99, 1, 1);
+            transition: 0.3s;
+        }
+
+        .conteudo {
+            width: 70%;
+            float: left;
+            padding-left: 10px;
+        }
+
+        .rodape {
+            width: 100%;
+            background-color: black;
+            color: white;
+            float: left;
+            text-align: center;
+        }
+        .atendimento{
+            background-color: green;
+            width: 200px;
+            padding: 20px;
+            color: white;
+            /* Posicionamento */
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+        .citacao{
+            background-color: rgb(192, 192, 192);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .citacao p{
+            font-style: italic;
+        }
+        .citacao p.autor{
+            font-style: normal;
+            font-weight: bold;
+            text-align: right;
+        }
+        .citacao span{
+            background-color: brown;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            position: absolute;
+            top: -20px;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Cabeçalho -->
+        <div class="cabecalho">
+            <h1>Meu Site</h1>
+        </div>
+
+        <!-- Quebra-linha -->
+        <div class="clear"></div>
+
+        <!-- Corpo -->
+        <div class="corpo">
+            <!-- Lateral -->
+            <div class="lateral">
+
+                <div class="menulateral">
+                    <a href="#">Página Inicial</a>
+                    <a href="#">Loja</a>
+                    <a href="#">Sobre mim</a>
+                    <a href="#">Contato</a>
+                </div>
+
+            </div>
+
+            <!-- Conteúdo -->
+            <div class="conteudo">
+                <h1>Título da Notícia</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                
+                <div class="citacao">
+                    <span>Citação:</span>
+                    <p>"Só sabe explicar quem faz o curso."</p>
+                    <p class="autor">- 10, Ben</p>
+                </div>
+
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quas facilis quia eligendi alias quasi hic nesciunt delectus ipsa est, mollitia suscipit odio explicabo corrupti, temporibus earum pariatur voluptatem?</p>
+            </div>
+
+        </div>
+
+        <!-- Quebra-linha -->
+        <div class="clear"></div>
+
+        <!-- Rodapé -->
+        <div class="rodape">
+            <p>&copy; Estevinho Productions 2024 - Todos os direitos reservados</p>
+        </div>
+
+        <!-- Quebra-linha -->
+        <div class="clear"></div>
+
+    </div>
+
+
+    <!-- Div fixa -->
+    <div class="atendimento">
+        Oi
+    </div>
+
+
+
+</body>
+
+</html>
